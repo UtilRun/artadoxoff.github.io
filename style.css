@@ -1,0 +1,85 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.header {
+    background-color: deepskyblue;
+    color: aliceblue;
+    text-align: center;
+    height: 35px;
+}
+
+.header > a {
+    position: relative;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 18px;
+    display: inline-block;
+    top: 5px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.cube1 {
+    /*background-color: blue;*/
+    border: 2px solid greenyellow;
+    border-radius: 6px;
+}
+
+.cube2 {
+    border: 2px solid #f8ff00;
+    border-radius: 6px;
+    /*background-color: greenyellow;*/
+}
+
+.cube3 {
+    border: 2px solid #ff0000;
+    border-radius: 6px;
+    /*background-color: yellow;*/
+}
+
+.cube {
+    text-align: center;
+    /*position: relative;*/
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    /*top: 250px;*/
+    /*left: 500px;*/
+    /*border: 3px solid deepskyblue;*/
+    border-radius: 6px;
+    margin: 12px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.cube > form > button {
+    height: 35px;
+    width: 153px;
+    font-size: 16px;
+    /*border: 1px solid deepskyblue;*/
+    border-radius: 6px;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+    background-color: #e1e100;
+}
+
+@media screen and (max-width: 768px) {
+    .cube {
+        display: block;
+        margin-bottom: 35px;
+        width: 145px;
+        height: 160px;
+    }
+
+    .cube > button {
+        width: 130px;
+   }
+}
