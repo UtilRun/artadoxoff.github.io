@@ -71,7 +71,7 @@ body, html {
     background-color: #e1e100;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .cube {
         display: block;
         margin-bottom: 35px;
@@ -83,3 +83,4 @@ body, html {
         width: 130px;
    }
 }
+*/
