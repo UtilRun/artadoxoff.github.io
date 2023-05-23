@@ -5,23 +5,16 @@ body, html {
 }
 
 .header {
-    background-color: #b4adad;
-    color: aliceblue;
-    text-align: center;
-    height: 35px;
-    border: 3px solid  #b4adad;
-    border-left: 12px;
-    border-right: 12px;
-    font-family: 'Comfortaa', cursive;
+    background-color: #0B1120;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 49%;
 }
 
 .header > a {
-    position: relative;
-    padding-left: 3px;
-    padding-right: 3px;
     font-size: 18px;
     display: inline-block;
-    top: 5px;
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -86,3 +79,8 @@ button:hover {
 /*        width: 130px;*/
 /*    }*/
 /*}*/
+
+#tg {
+    height: 25px;
+    width: 25px;
+}
