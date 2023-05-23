@@ -9,7 +9,7 @@ body, html {
     height: 50px;
     width: 50px;
     position: relative;
-    
+    left:50%;
 }
 
 .header > a {
