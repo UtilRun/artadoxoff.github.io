@@ -46,23 +46,25 @@ body, html {
     box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0.8);
 }
 
-button:hover {
-    box-shadow: 0 0 0 2px rgba(0,0,0,0.8);
+.btn:hover {
+    box-shadow: 0 0 0 2px rgba(255, 234, 0, 0.8);
+    background-color: blueviolet;
 }
+
 
 .content {
     margin-top: 10px;
 }
 
-.cube > form > button {
+.btn {
     height: 35px;
     width: 153px;
     font-size: 16px;
     border: none;
     border-radius: 6px;
-    background-color: rgba(255, 0, 0, 0);
+    /* background-color: rgba(255, 0, 0, 0); */
     cursor: pointer;
-    background-color: #bba304;
+    background-color: rgb(56, 189, 248);
     transition-property: all;
     transition: 0.6s ease all;
 }
@@ -79,8 +81,3 @@ button:hover {
 /*        width: 130px;*/
 /*    }*/
 /*}*/
-
-#tg {
-    height: 25px;
-    width: 25px;
-}
