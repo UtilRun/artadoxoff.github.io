@@ -5,21 +5,17 @@ body, html {
 }
 
 .header {
-    background-color: #0B1120;
-    height: 50px;
-    width: 50px;
-    position: relative;
-    left:50%;
+    height: 25px;
+    background-color: #4f4646;
+    border-radius: 0 0 10px 10px;
 }
 
-.header > a {
-    font-size: 18px;
-    display: inline-block;
+a {
+    padding-inline: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: #ffffff;
 }
-
 
 .cube {
     text-align: center;
@@ -48,12 +44,7 @@ body, html {
 
 .btn:hover {
     box-shadow: 0 0 0 2px rgba(255, 234, 0, 0.8);
-    background-color: blueviolet;
-}
-
-
-.content {
-    margin-top: 10px;
+    background-color: #5c00ff;
 }
 
 .btn {
@@ -67,7 +58,17 @@ body, html {
     background-color: rgb(56, 189, 248);
     transition-property: all;
     transition: 0.6s ease all;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
+
+ .material-symbols-outlined {
+     font-variation-settings:
+             'FILL' 0,
+             'wght' 400,
+             'GRAD' 0,
+             'opsz' 48;
+ }
 
 /*@media screen and (max-width: 768px) {*/
 /*    .cube {*/
