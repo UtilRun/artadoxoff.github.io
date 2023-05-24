@@ -1,3 +1,29 @@
 body {
     background-color: #0B1120;
 }
+
+
+.gh {
+    color: rgb(148 163 184);
+    font-family: 'Comfortaa', cursive;
+    width: 150px;
+    height:110px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.krpt {
+    border: 2px solid white;
+}
+
+.knd {
+    border: 2px solid white;
+    bottom: 18px;
+}
+
+.nst {
+    border: 2px solid white;
+    bottom: 36px;
+}
