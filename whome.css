@@ -2,6 +2,25 @@ body {
     background-color: #0B1120;
 }
 
+/*.cube {*/
+/*    text-align: center;*/
+/*    !*position: relative;*!*/
+/*    display: inline-block;*/
+/*    height: 130px;*/
+/*    width: 130px;*/
+/*    !*top: 250px;*!*/
+/*    !*left: 500px;*!*/
+/*    border: 1px solid;*/
+/*    border-radius: 10px;*/
+/*    border-color: white;*/
+/*    margin: 12px;*/
+/*    color: rgb(148 163 184);*/
+/*    text-shadow: 1px 1px 1px rgb(0, 0, 0);*/
+/*    transition: all 1s ease;*/
+/*    font-family: 'Comfortaa', cursive;*/
+/*    transition-property: all;*/
+/*    font-size: 16px;*/
+/*}*/
 
 .gh {
     color: rgb(148 163 184);
@@ -11,7 +30,8 @@ body {
     border-radius: 10px;
     position: relative;
     text-align: center;
-    display: inline-block;
+    display: inline-flex;
+    margin: 5px;
 }
 
 .krpt {
@@ -20,10 +40,8 @@ body {
 
 .knd {
     border: 2px solid white;
-    bottom: 18px;
 }
 
 .nst {
     border: 2px solid white;
-    bottom: 36px;
 }
